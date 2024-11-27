@@ -1,0 +1,99 @@
+.rootDiv{
+    position: relative;
+}
+
+
+.absolute{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+}
+
+
+.plusButton{
+    margin-top: 10px;
+    margin-right: 10px;
+    z-index: 1000;
+    background-color: white;
+    padding: 10px 15px;
+    user-select: none;
+    border: 1px solid black;
+
+}
+
+.plusButton:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+.filter{
+    margin-top: 10px;
+    margin-right: 10px;
+    z-index: 1000;
+    user-select: none;
+}
+
+.filter select{
+    padding: 10px 15px;
+    border: 1px solid black;
+    background-color: white;
+    user-select: none;
+}
+
+
+.addForm{
+    margin-top: 10px;
+    margin-right: 5px;
+    background-color: white;
+    padding: 10px 15px;
+    border: 1px solid black;
+}
+
+.addForm input{
+    padding: 10px 15px;
+    border: 1px solid black;
+    background-color: white;
+    user-select: none;
+    margin: 2px 0px;
+}
+
+.addForm button{
+    padding: 10px 15px;
+    border: 1px solid black;
+    background-color: white;
+    user-select: none;
+    margin: 2px 0px;
+}
+
+.addForm button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.addForm input:focus{
+    outline: none;
+}
+
+.addForm select{
+    padding: 10px 15px;
+    border: 1px solid black;
+    background-color: white;
+    user-select: none;
+    margin: 2px 0px;
+    font-size: 10px;
+    width: 100%;
+}
+
+.chooseLocationButton{
+    padding: 10px 15px;
+    border: 1px solid black;
+    background-color: white;
+    user-select: none;
+    margin: 2px 0px;
+    width: 100%;
+}
